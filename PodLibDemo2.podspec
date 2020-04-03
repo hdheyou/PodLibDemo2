@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PodLibDemo2"
   spec.version      = "0.0.1"
-  spec.summary      = "我的测试项目 PodLibDemo2."
+  spec.summary      = "我的测试项目我的测试项目我的测试项目我的测试项目 PodLibDemo2."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/hdheyou/PodLibDemo2.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/hdheyou/PodLibDemo2.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "#{spec.name}", "#{spec.name}/**/*.{h,m}"
-  spec.exclude_files = "#{spec.name}/Exclude"
+  # spec.exclude_files = "#{spec.name}/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
